@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+    /* importing----google-----font */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+    /* Universal____________________________desgine */
+    .baNeer{
+        margin-bottom: 140px;
+    }
+    
+    .bike-collection,.faq-portion,.client-header-portion{
+        color: tomato;
+    }
+
+
+  /* top---------------------------------------------------------------------***** Banner *****-------------------------desgine */
+    header{
+        background-color: darkslategrey;
+        color: white;
+    }
+    
+    #modal-button{
+        color:white;
+        background-color: tomato;
+        
+    }
+    .modal-card-heading{
+        color: teal;
+    }
+    .first-header p{
+        color: darkgrey;
+    }
+    .first-header span{
+      color: darkgrey;
+
+    }
+    .modal-title{
+        color: orange;
+
+    }
+    /* Featured--------------------------*******Bike************---------------------------desgine */
+    
+    .grayscall-wrapper img{
+      filter: grayscale(100%);
+
+    }
+    
+    /* client--------------------------------*****************section********************-----------------------------------desgine */
+    
+    .client-name{
+      color: blue;
+    }
+    .fa-star{
+        color: gold;
+    }
+    /* -------------------contact-----------------us */
+    .message-header{
+      color: crimson;
+    }
+    .contact-us{
+      background-image: url(../images/contact-us-bg.jpg);
+      background-size: cover;
+      background-position: center center;
+      color: white;
+      font-family: 'Style Script', cursive;
+
+    }
+    .message-submit-btn{
+      background-color: #FF3CAC;
+      background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+      color: white;
+      font-weight: 700;
+
+    }
+    /* Why -------------------------------------------we------------------------------------------------------------different */
+    .why-different-portion{
+      color: darkorange;
+    }
+    .special-feature-section{
+      background-image: url(../images/special-bg.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      color: cornsilk;
+    }
+    .special-feature-section h3{
+      font-weight: 700;
+    }
+    .special-feature-section h1{
+      font-weight: 700;
+      color: darkgray;
+    }
+    /* footer_________________________________________________desgine */
+    footer{
+        background-color: black;
+        color: cadetblue;
+        padding: 10px;
+    }
